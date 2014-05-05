@@ -1,0 +1,17 @@
+<conf>
+<base_url>http://nregalndc.nic.in/netnrega/loginframegp.aspx?salogin=Y&amp;state_code=15</base_url>
+<emp>
+	<input_file>./emp_data</input_file>
+	<output_dir>outfile</output_dir>
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+</emp>
+<emp2>
+	<input_file>./emp_data</input_file>
+	<output_dir>outfile</output_dir>
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+	<level regex="ctl00$ContentPlaceHolder1$ddlDistrict" colpos="1" form_url="/" output_url="/ham_details.asp"/>	
+</emp2>
+</conf>
