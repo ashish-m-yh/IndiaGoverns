@@ -4,6 +4,8 @@ use strict;
 use Parallel::ForkManager;
 use DB_File;
 
+my %ids;
+
 tie %ids, "/home/ashishin/id.db" or die $!; 
 
 my $url = "http://stg1.kar.nic.in/samanyamahiti/SMEnglish_0506";
